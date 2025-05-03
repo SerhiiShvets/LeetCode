@@ -25,7 +25,12 @@ namespace _189_Rotate_Array
                 }
             }
             //RotateArray(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);
-            RotateArray(new int[] { 1 }, 2);
+            //RotateArray(new int[] { 1 }, 2);
+            Console.WriteLine(5 % 4);   // output: 1
+            Console.WriteLine(5 % -4);  // output: 1
+            Console.WriteLine(-5 % 4);  // output: -1
+            Console.WriteLine(-5 % -4); // output: -1
+            Console.WriteLine(2 % 10); // output: 2
 
             Console.ReadKey();
         }
